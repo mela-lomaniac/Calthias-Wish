@@ -1,0 +1,43 @@
+{
+  "id": "calthias-wish",
+  "title": "Calthia's Wish",
+  "description": "Some items from Calthia's Wacky Wish Ritual",
+  "url": "https://github.com/mela-lomaniac/Calthias-Wish",
+  "manifest": "https://raw.githubusercontent.com/mela-lomaniac/Calthias-Wish/master/module.json",
+  "download": "https://github.com/mela-lomaniac/Calthias-Wish/archive/refs/heads/main.zip",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "The Worldweep Volunteer Team" },
+    { "name": "mela" }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "6.4.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "calthias-wish",
+      "label": "Calthia's Wish",
+      "path": "packs/calthias-wish",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
