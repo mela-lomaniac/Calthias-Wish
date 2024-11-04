@@ -5,7 +5,7 @@
   "url": "https://github.com/mela-lomaniac/Calthias-Wish",
   "manifest": "https://raw.githubusercontent.com/mela-lomaniac/Calthias-Wish/master/module.json",
   "download": "https://github.com/mela-lomaniac/Calthias-Wish/archive/refs/heads/main.zip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     { "name": "The Worldweep Volunteer Team" },
     { "name": "mela" }
